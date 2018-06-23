@@ -107,3 +107,25 @@ ul.right {
 	padding-right: 20px;
 	font-size: 16px;
 }
+@media (max-width: 399px) {
+	.searchbox input {
+		width: 10%;
+
+	}
+}
+
+@media (max-width: 393px) {
+	* {
+		font-size: 12px;
+	}
+	.profile_img {
+		display: none;
+	}
+	ul nav {
+		margin-right: 0;
+	}
+	ul.nav li {
+		margin-right: 0;
+	}
+}
+
